@@ -6,7 +6,7 @@ Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="index.css">
 <title>index</title>
-<script type="text/javascript" sre="js.js">
+<script type="text/javascript">
 
 /*var name  = prompt("what is your name");
 alert("欢迎您  	         " + name + "同学");*/
@@ -34,6 +34,9 @@ function goTop(acceleration, time) {
 		y2 = document.body.scrollTop || 0;
 	}
 	var x3 = window.scrollX || 0;
+	window.scrollTo(Math.floor(x / speed), Math.floor(y / speed));
+ 
+	// 如果距离不为零, 继续调用迭代本函数
 	var y3 = window.scrollY || 0;
  
 	// 滚动条到页面顶部的水平距离
@@ -43,9 +46,6 @@ function goTop(acceleration, time) {
  
 	// 滚动距离 = 目前距离 / 速度, 因为距离原来越小, 速度是大于 1 的数, 所以滚动距离会越来越小
 	var speed = 1 + acceleration;
-	window.scrollTo(Math.floor(x / speed), Math.floor(y / speed));
- 
-	// 如果距离不为零, 继续调用迭代本函数
 	if(x > 0 || y > 0) {
 		var invokeFunction = "goTop(" + acceleration + ", " + time + ")";
 		window.setTimeout(invokeFunction, time);
@@ -55,6 +55,8 @@ function goTop(acceleration, time) {
 
 </head>
 <body>
+	<div class = "head">
+	</div>
 	<div id="menu_wrapper" class="black">
 		<div class="left"></div>
 			<ul id="menu">
@@ -64,22 +66,23 @@ function goTop(acceleration, time) {
 					</a>
 				</li>
 				<li >
-					<a href="wenhua.html">
-						文化
+					<a href="people.html">
+						<!-- 荆楚 -->人物
 					</a>
 				</li>
 				<li >
-					<a href="meishi.html">美食
-					</a>
-				</li>
-				<li >
-					<a href="visit.html">
-						旅游
+					<a href="fengsu.html">
+						<!-- 荆 -->风<!-- 楚 -->俗
 					</a>
 				</li>
 				<li>
-					<a href="#">
-						Others
+					<a href="source.html">
+						<!-- 荆楚 -->溯源
+					</a>
+				</li>
+				<li>
+					<a href="poem.html">
+						词赋
 					</a>
 				</li>
 			</ul>
@@ -111,15 +114,16 @@ function goTop(acceleration, time) {
 </li>
 </ul>
 </div> -->
-<div class = "left1">
-	<h3>左一</h3>
-	<a href="world.html">world</a>
+<div class = "left1"> <img src="img/quyuan.jpg">
+	<center><h2>荆楚文化</h2></center>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;荆楚文化是中华民族文化的重要组成部分，她源远流长，博大精深，具有鲜明的地域特色和巨大的经济文化开发价值。<br>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;荆楚文化作为一种具有鲜明地域特色的文化，其内涵可概括为八大系列：</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1、炎帝神农文化。湖北随州、谷城和神农架是炎帝神农的主要活动区域，有许多民间传说和文化遗址。在这里，炎帝神农遍尝百草，为民治病，发明农业，教民耕种，其深厚的历史文化底蕴标志着中华文明从渔猎时代向农耕时代过渡。</p>
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2、楚国历史文化。湖北是楚文化的发祥地，楚国作为春秋战国时期的大国和强国之一，在800多年的历史长河中创造了灿烂辉煌的文明成果...&nbsp;<a href="#">显示全部>></a></p>
+<!-- 	<a href="world.html">world</a> -->
 </div>
 <div class = "right1">
-右一
-</div>
-<div class = "middle">
-
 <ul class="thumb">
 			<li>
 				<img src="./img/001.jpg" width="640" height="960" />
@@ -137,21 +141,45 @@ function goTop(acceleration, time) {
 				<img src="./img/005.jpg" width="640" height="960" />
 			</li>
 			<li>
-        <img src="./img/006.jpg" width="640" height="960" />
-      </li>
+        		<img src="./img/006.jpg" width="640" height="960" />
+      		</li>
 			<li>
-        <img src="./img/007.jpg" width="640" height="960" />
-      </li>
+        		<img src="./img/007.jpg" width="640" height="960" />
+      		</li>
 			<li>
-        <img src="./img/008.jpg" width="640" height="960" />
-      </li>			
+        		<img src="./img/008.jpg" width="640" height="960" />
+      		</li>			
 		</ul>
 </div>
+<div class = "middle">
+	<div class = "mhead">
+		<b>风生水起才知天高云淡，沧海横流方显英雄本色。</b>
+		<a href = "people.html" style = "float:right">更多</a>
+	</div>
+	<div id = "m1">
+		<center style = "margin-top:8px;margin-bottom:-5px;">楚庄王</center>
+		<p  style = "line-height: 25px;font-size:16px; margin-left:5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;楚庄王（？～前591）：春秋五霸之一。郢都（江陵纪南城）人，公元前613年至公元前591任楚国君主。又称荆庄王、熊侣。在位期间重视选择人才，先后得到伍参，苏从、孙叔敖、子重等文臣武将的辅佐。</p><p style = "line-height: 25px;font-size:16px; margin-left:5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;庄王初年，楚国发生贵族暴乱，邻近的群蛮等也乘机骚扰。庄王平息乱事，进行内政改革，使百姓安居乐业，国力日益强盛。公元前611年，楚庄王攻灭庸国。公元前606年，打败陈国、郑国和晋国，使鲁、郑、陈、宋...<a href="#" style = "font-size:14px;">显示全部>></a></p>
+	</div>
+	<div id = "m2">
+		<center style = "margin-top:8px;margin-bottom:-5px;">屈原</center>
+		<p style = "line-height: 25px;font-size:16px; margin-left:5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;屈原（前339－前277）：战国时期楚国诗人。名平，字原，又名正则，字灵均。屈原博闻强记，熟悉政务，善于外交辞令，楚怀王时任左徒颇得信任，但为佞臣所不容。</p><p style = "line-height: 25px;font-size:16px; margin-left:5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;顷襄王即位后，屈原曾任三闾大夫，掌公族子弟教育。不久又被奸人谗言所害，被放逐于江南。他深恶楚国政治之腐败，痛感国家之沦亡，悲愤难禁，于公元前277年在湖南抱石投汨罗江而死。屈原学识渊博，志洁行廉，他政治上不得志，遂将其理想、遭遇、忧愤、抱负形诸笔端，铸成宏伟...<a href="#">全部>></a></p>
+	</div>
+	<div id = "m3">
+		<center style = "margin-top:8px;margin-bottom:-5px;">楚庄王</center>
+		<p  style = "line-height: 25px;font-size:16px; margin-left:5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;张居正：（1525－1582）：湖广江陵（今湖北荆州城）人。字叔大，少名白圭，号太岳，又称张江陵。明代政治家，改革家。他5岁入学，7岁通六经大义，12岁考中秀才，16岁中举人，23岁中进士。隆庆元年（1567年）出任吏部左侍郎兼东阁大学士。万历初年，成为首辅。因当时明神宗年幼，一切军政大事均由张居正主持裁决，前后当国10年，这期间他实行了一系列改革措施，收到了一定成效。<a href="#">全部>></a></p>
+	</div>
+</div>
 <div class ="left2">
-左一
+	<div class = "lhead2">
+		<a href="fengsu.html">
+			风俗
+		</a>
+	</div>
 </div>
 <div class = "right2">
-右二
+	<div class = "lhead2">
+		<a href="#">溯源</a>
+	</div>
 </div>
 <div class = "footer">
 	底部
@@ -160,8 +188,7 @@ function goTop(acceleration, time) {
 </div>
 
 <div class = "fix">
-	<a href="#" onclick="goTop();return false;">
-		TOP
+	<a href="#" onclick="goTop();return false;" ><img src="img/top.png">
 	</a>
 </div>
 
