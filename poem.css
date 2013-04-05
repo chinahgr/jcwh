@@ -81,9 +81,9 @@ body{
   height: 122px;
 }
 .people_list li{
-  list-style: none;
   padding-bottom: 19px;
   font-size: 20px;
+  list-style-type: none;
 }
 /*.people_list p:hover{
   width: 90px;
@@ -95,6 +95,11 @@ body{
 }*/
 .czw1{
   display: none;
+  <h1><center>陈子昂•渡荆门望楚</center></h1>
+              <font size=5><center>遥遥去巫峡，望望下章台。</center>
+              <center>巴国山川尽，荆门烟雾开。</center>
+              <center>城分苍野外，树断白云隈。</center>
+              <center>今日狂歌客，谁知入楚来。</center></font> 
 }
 .quyuan1{
   display: none;
@@ -115,22 +120,23 @@ body{
   display: none;
 }
 .left1{
-	width: 220px;
-	height: 600px;
-	border:  1px dotted;
-	float: left;
+  width: 220px;
+  height: 600px;
+  border:  1px dotted;
+  float: left;
   border-radius: 1% 1% 1% 1%;
-/*	background-color: #00FF66;*/
+/*  background-color: #00FF66;*/
 }
 /*.people_list{
   margin-top: 0px;
 }*/
 
 .right1{
-
-	width: 720px;
-	height: 1000px;
-	border:  1px dotted;
-	float:  right;
+  width: 720px;
+  height: 1000px;
+  border:  1px dotted;
+  float:  right;
 }
-
+.right1 li{
+      list-style-type: none;
+}

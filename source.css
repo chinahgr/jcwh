@@ -116,10 +116,6 @@ a{text-decoration:none}
   margin-left: -86px;
 
 }
-img{
-  float: left;
-  margin-right:5px;
-}
 .left1{
    font-family: "Microsoft JhengHei", "微軟正黑體", Arial,  "新細明體", SimSun, sans-serif;
 /*  text-shadow:1px 1px 2px;*/
@@ -130,7 +126,10 @@ img{
 	float: left;
 	border-radius: 2% 2% 1% 1%;
 }
-
+img{
+  float: left;
+  margin-right:5px;
+}
 .right1{
 /*  margin-top: -30px;*/
 	width: 350px;
@@ -146,10 +145,14 @@ img{
     border-radius: 1% 1% 1% 1%;
 	margin-top: 40px;
 	width: 960px;
-	height: 390px;
-	border:  2px solid;
+	height: 370px;
+	border:  1px dotted;
 	float: left;
-	border-color:  gray;
+	border-color: #604809;
+}
+img{
+  float: right;
+  margin-right:0px;
 }
 .mhead{
   padding-left: 10px;
@@ -188,41 +191,15 @@ img{
   padding-left: 10px ;
   height: 25px;
   width: 60px;
-  /*border-right:1px dotted;
+  border-right:1px dotted;
   border-bottom: 1px dotted;
-  border-color: black;*/
+  border-color: black;
   /*font-family: "Microsoft JhengHei", "微軟正黑體", Arial,  "新細明體", SimSun, sans-serif;*/
   font-size: 20px;
   letter-spacing: 3px;
   color: gray;
 }
-.left2{
-  border-radius: 1% 1% 1% 1%;
-	margin-top: 40px;
-	width: 650px;
-	height: 290px;
-	border:  1px solid;
-	float: left;
-	border-color: #604809;
-  box-shadow: 0px 4px 7px 6px gray;
-}
-.right2{
-  border-radius: 1% 1% 1% 1%;
-	width: 200px;
-	height: 290px;
-	border:  1px solid;
-  box-shadow: 4px 5px 99px gray;
-	float:  right;
-	margin-top: 40px;
-	border-color: #604809;
-
-}
-
-.demo{
-  height: 250px;
-  width: 200px;
-  font-size: 20px;
-}
+/**/
 .footer{
   border-radius: 1% 1% 1% 1%;
 	margin-top: 40px;
@@ -232,10 +209,7 @@ img{
 	float: left;
 }
 
-/*.breathe-btn{
-  margin-top: 0px;
-  padding-bottom: -20px;
-}*/
+
 
  ul.thumb, ul.thumb li {
     padding: 0;
@@ -400,3 +374,17 @@ ul.thumb li:hover{
 /*  background-image: url("img/top.png");*/
 
 }
+/*.bottom{
+  background-image : url(./img/123.png);
+  background-repeat : no-repeat;
+  background-position : left;
+  margin-left: -180px;
+  height : 300px;
+  width : 100%;
+  width: 1349px;
+  position : fixed;
+  bottom : 0;
+  z-index : 5;
+
+  }
+  */

@@ -15,6 +15,8 @@ body{
     width: 960px;
     height: 100%;
     border-radius: 1px;
+    font-family: "Microsoft JhengHei", "微軟正黑體", Arial,  "新細明體", SimSun, sans-serif;
+/*  text-shadow:1px 1px 2px;*/
   }
 .head{
   width: 1143px;
@@ -67,70 +69,32 @@ body{
       #menu_wrapper.black li a:hover, #menu_wrapper.black li.active a {color: #999; background: #555; border-bottom: 2px solid #444;}
       #menu_wrapper.black {background: url(images/black.png) no-repeat right;}
       #menu_wrapper.black div {background: url(images/black.png) no-repeat left;}
-.people_left{
-  height: 32px;
-  width: auto;
-  border-right:  1px dotted;
-  border-bottom: 1px dotted;
-  border-bottom-right-radius: 5px;
-  font-family: "Microsoft JhengHei", "微軟正黑體", Arial,  "新細明體", SimSun, sans-serif;
-  font-size: 20px;
-}
-.people_list{
-  width: 170px;
-  height: 122px;
-}
-.people_list li{
-  list-style: none;
-  padding-bottom: 19px;
-  font-size: 20px;
-}
-/*.people_list p:hover{
-  width: 90px;
-  color: red;
-  font-size: 25px;
-}*/
-/*.people_list li p{
-  display: none;
-}*/
-.czw1{
-  display: none;
-}
-.quyuan1{
-  display: none;
-}
-.zjz1{
-  display: none;
-}
-.yzd1{
-  display: none;
-}
-.yhd1{
-  display: none;
-}
-.cyl1{
-  display: none;
-}
-.kongge1{
-  display: none;
-}
-.left1{
-	width: 220px;
-	height: 600px;
-	border:  1px dotted;
-	float: left;
-  border-radius: 1% 1% 1% 1%;
-/*	background-color: #00FF66;*/
-}
 /*.people_list{
   margin-top: 0px;
 }*/
 
 .right1{
-
-	width: 720px;
-	height: 1000px;
-	border:  1px dotted;
-	float:  right;
+  width: 820px;
+  height: 1000px;
+  border: 4px solid;
+  border-color:gray;
+  -moz-box-shadow: 2px 2px 10px #909090;/*firefox*/  
+    -webkit-box-shadow: 8px 8px 8px #909090;/*safari或chrome*/  
+    box-shadow:2px 2px 10px #909090;/*opera或ie9*/ 
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7px 7px 7px 7px;
+  border-color: gray;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+.fix{
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  right: 90px;
+  position: fixed; 
+  bottom:30px;
+/*  background-image: url("img/top.png");*/
 
+}

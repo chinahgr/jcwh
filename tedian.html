@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
+Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	</script>
+<script type="text/javascript">
+function goTop(acceleration, time) {
+	acceleration = acceleration || 0.1;
+	time = time || 16;
+ 
+	var x1 = 0;
+	var y1 = 0;
+	var x2 = 0;
+	var y2 = 0;
+	var x3 = 0;
+	var y3 = 0;
+ 
+	if (document.documentElement) {
+		x1 = document.documentElement.scrollLeft || 0;
+		y1 = document.documentElement.scrollTop || 0;
+	}
+	if (document.body) {
+		x2 = document.body.scrollLeft || 0;
+		y2 = document.body.scrollTop || 0;
+	}
+	var x3 = window.scrollX || 0;
+	window.scrollTo(Math.floor(x / speed), Math.floor(y / speed));
+ 
+	// 如果距离不为零, 继续调用迭代本函数
+	var y3 = window.scrollY || 0;
+ 
+	// 滚动条到页面顶部的水平距离
+	var x = Math.max(x1, Math.max(x2, x3));
+	// 滚动条到页面顶部的垂直距离
+	var y = Math.max(y1, Math.max(y2, y3));
+ 
+	// 滚动距离 = 目前距离 / 速度, 因为距离原来越小, 速度是大于 1 的数, 所以滚动距离会越来越小
+	var speed = 1 + acceleration;
+	if(x > 0 || y > 0) {
+		var invokeFunction = "goTop(" + acceleration + ", " + time + ")";
+		window.setTimeout(invokeFunction, time);
+	}
+}
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="head.css">
+<title>文化特点
+</title>
+
+</head>
+<body>
+	<div class = "head">
+	</div>
+	<div id="menu_wrapper" class="black">
+		<div class="left"></div>
+			<ul id="menu">
+				<li >
+					<a href="index.html">
+						首页
+					</a>
+				</li>
+				<li >
+					<a href="people.html">
+						<!-- 荆楚 -->人物
+					</a>
+				</li>
+				<li >
+					<a href="fengsu.html">
+						<!-- 荆 -->风<!-- 楚 -->俗
+					</a>
+				</li>
+				<li>
+					<a href="suyuan.html">
+						<!-- 荆楚 -->溯源
+					</a>
+				</li>
+				<li>
+					<a href="poem.html">
+						词赋
+					</a>
+				</li>
+			</ul>
+		</div>
+
+<div class = "right1">
+	dd
+</div>
+<div class = "fix">
+	<a href="#" onclick="goTop();return false;" ><img src="img/top.png">
+	</a>
+</div>
+</body>
+</html>
+
