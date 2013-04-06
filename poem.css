@@ -10,6 +10,7 @@ body{
      filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#D1EEF5', endColorstr='#ffffff');  
      /* IE8 */  
      -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#D1EEF5', endColorstr='#ffffff')";  
+  font-family: "Microsoft JhengHei", "微軟正黑體", Arial,  "新細明體", SimSun, sans-serif;
 
     margin:auto;
     width: 960px;
@@ -127,6 +128,11 @@ body{
   border-radius: 1% 1% 1% 1%;
 /*  background-color: #00FF66;*/
 }
+.left1 a:hover{
+  background-color: gray;
+  font-size: 23px;
+  border-radius: 2px 2px 2px 2px;
+}
 /*.people_list{
   margin-top: 0px;
 }*/
@@ -134,9 +140,29 @@ body{
 .right1{
   width: 720px;
   height: 1000px;
-  border:  1px dotted;
+  border:  2px solid;
   float:  right;
+  border-color: gray;
+  border-radius: 2px 2px 2px 2px;
 }
 .right1 li{
       list-style-type: none;
+}
+.fix{
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  right: 90px;
+  position: fixed; 
+  bottom:30px;
+/*  background-image: url("img/top.png");*/
+
+}
+.footer{
+  border-radius: 1% 1% 1% 1%;
+  margin-top: 40px;
+  width: 960px;
+  height: 190px;
+/*  background-color:#604809;*/
+  float: left;
 }

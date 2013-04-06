@@ -133,4 +133,21 @@ body{
   border:  1px dotted;
   float:  right;
 }
+.fix{
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  right: 90px;
+  position: fixed; 
+  bottom:30px;
+/*  background-image: url("img/top.png");*/
 
+}
+.footer{
+  border-radius: 1% 1% 1% 1%;
+  margin-top: 40px;
+  width: 960px;
+  height: 190px;
+/*  background-color:#604809;*/
+  float: left;
+}

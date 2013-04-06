@@ -75,8 +75,8 @@ body{
 
 .right1{
   width: 820px;
-  height: 1000px;
-  border: 4px solid;
+  height: auto;
+  border: 3px solid;
   border-color:gray;
   -moz-box-shadow: 2px 2px 10px #909090;/*firefox*/  
     -webkit-box-shadow: 8px 8px 8px #909090;/*safari或chrome*/  
@@ -97,4 +97,12 @@ body{
   bottom:30px;
 /*  background-image: url("img/top.png");*/
 
+}
+.footer{
+  border-radius: 1% 1% 1% 1%;
+  margin-top: 40px;
+  width: 960px;
+  height: 190px;
+/*  background-color:#604809;*/
+  float: left;
 }

@@ -69,10 +69,12 @@ body{
       #menu_wrapper.black div {background: url(images/black.png) no-repeat left;}
 .people_left{
   height: 32px;
-  width: auto;
-  border-right:  1px dotted;
-  border-bottom: 1px dotted;
+  width: 150px;
+  border-right:  2px solid;
+  border-bottom: 2px solid;
+  box-shadow:0px 1px 1px 1px green ;
   border-bottom-right-radius: 5px;
+  border-color: gray;
   font-family: "Microsoft JhengHei", "微軟正黑體", Arial,  "新細明體", SimSun, sans-serif;
   font-size: 20px;
 }
@@ -115,22 +117,41 @@ body{
   display: none;
 }
 .left1{
-	width: 220px;
+	width: 200px;
 	height: 600px;
-	border:  1px dotted;
+	border:  2px solid;
 	float: left;
   border-radius: 1% 1% 1% 1%;
-/*	background-color: #00FF66;*/
+border-color: gray;
 }
 /*.people_list{
   margin-top: 0px;
 }*/
 
 .right1{
-
+  padding-right: 10px;
 	width: 720px;
 	height: 1000px;
-	border:  1px dotted;
+	border:  2px solid;
 	float:  right;
+  border-radius:2px 2px 2px 2px;
+  border-color: gray;
 }
+.fix{
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  right: 90px;
+  position: fixed; 
+  bottom:30px;
+/*  background-image: url("img/top.png");*/
 
+}
+.footer{
+  border-radius: 1% 1% 1% 1%;
+  margin-top: 40px;
+  width: 960px;
+  height: 190px;
+/*  background-color:#604809;*/
+  float: left;
+}
