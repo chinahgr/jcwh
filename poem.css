@@ -1,0 +1,168 @@
+a{text-decoration:none}
+h1{
+  text-shadow:1px 1px 2px ;
+}
+body{
+  background-image: -moz-linear-gradient(top, #D1EEF5, #ffffff);  
+     /* Safari & Chrome */  
+     background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ffffff), color-stop(1, #D1EEF5));  
+     /* IE6 & IE7 */  
+     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#D1EEF5', endColorstr='#ffffff');  
+     /* IE8 */  
+     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#D1EEF5', endColorstr='#ffffff')";  
+  font-family: "Microsoft JhengHei", "微軟正黑體", Arial,  "新細明體", SimSun, sans-serif;
+
+    margin:auto;
+    width: 960px;
+    height: 100%;
+    border-radius: 1px;
+  }
+.head{
+  width: 1143px;
+  height: 116px;
+  background:url(./img/head.jpg);
+  margin-left: -86px;
+
+}
+  #menu {
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0px 0px 5px 0px;
+        padding-top: 0px;
+        list-style-type: none;
+        background-color: #eee;
+        font-size: 13px;
+        height: 40px;
+        border-top: 2px solid #eee;
+        border-bottom: 2px solid #ccc;
+      }
+      #menu li {
+        float:left;
+      /*  padding-left: 0px;*/
+        margin: 0;        
+      }
+      #menu li a {
+        text-decoration: none;
+        display: block;
+        padding: 0 20px;
+        line-height: 40px;
+        font-size: 35px;
+        color: #666;
+      }
+      #menu li a:hover, #menu li.active a {
+        background-color: #f5f5f5;
+        border-bottom: 2px solid #DDD;
+        color: #999;
+      }
+      #menu_wrapper ul {margin-left: 12px;}
+      #menu_wrapper {padding: 0 16px 0 0; background: url(images/grey.png) no-repeat right;}
+      #menu_wrapper div {float: left; height: 44px; width: 12px; background: url(images/grey.png) no-repeat left;}
+      
+      /* Black Menu */
+      #menu_wrapper.black ul {
+        border-top: 2px solid #333;
+        border-bottom: 2px solid #000;
+        background: #333;}
+      #menu_wrapper.black a {color: #CCC;}
+      #menu_wrapper.black li a:hover, #menu_wrapper.black li.active a {color: #999; background: #555; border-bottom: 2px solid #444;}
+      #menu_wrapper.black {background: url(images/black.png) no-repeat right;}
+      #menu_wrapper.black div {background: url(images/black.png) no-repeat left;}
+.people_left{
+  height: 32px;
+  width: auto;
+  border-right:  1px dotted;
+  border-bottom: 1px dotted;
+  border-bottom-right-radius: 5px;
+  font-family: "Microsoft JhengHei", "微軟正黑體", Arial,  "新細明體", SimSun, sans-serif;
+  font-size: 20px;
+}
+.people_list{
+  width: 170px;
+  height: 122px;
+}
+.people_list li{
+  padding-bottom: 19px;
+  font-size: 20px;
+  list-style-type: none;
+}
+/*.people_list p:hover{
+  width: 90px;
+  color: red;
+  font-size: 25px;
+}*/
+/*.people_list li p{
+  display: none;
+}*/
+.czw1{
+  display: none;
+  <h1><center>陈子昂•渡荆门望楚</center></h1>
+              <font size=5><center>遥遥去巫峡，望望下章台。</center>
+              <center>巴国山川尽，荆门烟雾开。</center>
+              <center>城分苍野外，树断白云隈。</center>
+              <center>今日狂歌客，谁知入楚来。</center></font> 
+}
+.quyuan1{
+  display: none;
+}
+.zjz1{
+  display: none;
+}
+.yzd1{
+  display: none;
+}
+.yhd1{
+  display: none;
+}
+.cyl1{
+  display: none;
+}
+.kongge1{
+  display: none;
+}
+.left1{
+  width: 220px;
+  height: 600px;
+  border:  1px dotted;
+  float: left;
+  border-radius: 1% 1% 1% 1%;
+/*  background-color: #00FF66;*/
+}
+.left1 a:hover{
+  background-color: gray;
+  font-size: 23px;
+  border-radius: 2px 2px 2px 2px;
+}
+/*.people_list{
+  margin-top: 0px;
+}*/
+
+.right1{
+  width: 720px;
+  height: 1000px;
+  border:  2px solid;
+  float:  right;
+  border-color: gray;
+  border-radius: 2px 2px 2px 2px;
+}
+.right1 li{
+      list-style-type: none;
+}
+.fix{
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  right: 90px;
+  position: fixed; 
+  bottom:30px;
+/*  background-image: url("img/top.png");*/
+
+}
+.footer{
+  border-radius: 1% 1% 1% 1%;
+  margin-top: 40px;
+  width: 960px;
+  height: 190px;
+/*  background-color:#604809;*/
+  float: left;
+}
